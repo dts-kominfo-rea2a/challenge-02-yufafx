@@ -68,11 +68,11 @@ function lakukanLooping(arrPegawai) {
   let komentar = null;
 
   if(jumlahPria>jumlahWanita){
-    komentar.push("Jumlah Pria lebih banyak dari Wanita");
+    komentar = ("Jumlah Pria lebih banyak dari Wanita");
   } else if (jumlahPria<jumlahWanita) {
-    komentar.push("Jumlah Wanita lebih banyak dari Pria");
+    komentar = ("Jumlah Wanita lebih banyak dari Pria");
   } else {
-    komentar.push("Jumlah Pria dan Wanita berimbang"); 
+    komentar = ("Jumlah Pria dan Wanita berimbang"); 
   }
 
   // ! JANGAN DIMODIFIKASI
